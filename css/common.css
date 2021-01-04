@@ -259,12 +259,15 @@
 .contact {
     height: 298px;
     background: #ffffff;
-    padding: 60px 0 36px;
+}
+
+.contactC {
+    padding: 60px 0 34px;
 }
 
 .contactC>div {
     width: 395px;
-    height: 298px;
+    height: 204px;
     float: left;
     border-right: 1px solid #e9e9e9;
 }
@@ -279,9 +282,109 @@
     font-size: 16px;
 }
 
-.contactC .c_left {
-    width: 80px;
+.contactC .c_left div {
+    height: 102px;
+    width: 228px;
+    margin: 0 auto;
+}
+
+.contactC .c_left div a {
+    display: inline-block;
     height: 100px;
+    width: 80px;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    margin: 15px 15px;
+    font-size: 12px;
+    color: #000000;
+}
+
+.contactC .c_left div a:nth-child(1) i {
+    font-size: 30px;
+    display: block;
+    width: 30px;
+    height: 26px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png') no-repeat;
+    background-position: 0 -290px;
+    margin: 30px auto 15px;
+}
+
+.contactC .c_left div a:nth-child(2) i {
+    font-size: 30px;
+    display: block;
+    width: 30px;
+    height: 26px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png') no-repeat;
+    background-position: 0 -98px;
+    margin: 30px auto 15px;
+}
+
+.contactC .c_left div a:hover {
+    color: #cc9756;
+}
+
+.contactC .c_left div a:nth-child(1):hover i {
+    background-position: 0 -254px;
+}
+
+.contactC .c_left div a:nth-child(2):hover i {
+    background-position: 0 -61px;
+}
+
+.contactC .c_middle p {
+    width: 288.36px;
+    height: 69px;
+    margin: 15px auto 22px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #333333;
+}
+
+.contactC .c_middle div {
+    width: 288.36px;
+    height: 32px;
+    margin: 0 auto;
+    padding: 0 37px;
+    vertical-align: middle;
+}
+
+.contactC .c_middle div span {
+    display: inline-block;
+    width: 64px;
+    height: 32px;
+    margin-right: 15px;
+    line-height: 32px;
+    font-size: 12px;
+}
+
+.contactC .c_middle div i {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png') no-repeat;
+    background-position: 0 -470px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.contactC .c_middle div b {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png') no-repeat;
+    background-position: 0 -428px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.contactC .c_middle div em {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png') no-repeat;
+    background-position: 0 -326px;
+    vertical-align: middle;
+    margin-right: 15px;
 }
 
 
