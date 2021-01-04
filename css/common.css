@@ -22,10 +22,13 @@
 }
 
 .topC div:nth-child(1) span {
-    color: #cc9756;
-    font-size: 14px;
-    line-height: 36px;
-    margin: 0 12px 0 2px;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background: url('https://yanxuan.nosdn.127.net/d132c2561f18f1149d566a60d05fd9b7.gif') no-repeat;
+    color: #b4a078;
+    margin-top: 11px;
+    margin-right: 10px;
 }
 
 .topC div:nth-child(1) a {
@@ -51,25 +54,46 @@
     float: right;
 }
 
-.topC>div:nth-child(2) span {
-    border-right: 1px solid #5c5c5c;
+.topC>div:nth-child(2)>ul>li {
+    float: left;
+    position: relative;
 }
 
-.topC>div:nth-child(2) span.nobd {
-    border: none;
+.topC>div:nth-child(2)>ul>li::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #999999;
+    position: absolute;
+    right: 0;
+    top: 13px;
 }
 
-.topC>div:nth-child(2) span a {
+.topC>div:nth-child(2)>ul>li.nobg>a>i {
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s2904006215-b2811ec0e9.png') no-repeat center;
+    background-position: 0 0;
+    margin-right: 5px;
+}
+
+.topC>div:nth-child(2)>ul>li.nobg::after {
+    width: 0;
+}
+
+.topC>div:nth-child(2)>ul>li>a {
     color: #cccccc;
     line-height: 36px;
     margin: 0 10px;
 }
 
-.topC>div:nth-child(2) span:hover {
+.topC>div:nth-child(2) li:hover {
     cursor: pointer;
 }
 
-.topC>div:nth-child(2) span a:hover {
+.topC>div:nth-child(2) li a:hover {
     color: #ffffff;
 }
 
@@ -387,10 +411,149 @@
     margin-right: 15px;
 }
 
+.contactC .c_right {
+    text-align: center;
+}
+
+.contactC .c_right div {
+    margin-top: 15px;
+}
+
+.contactC .c_right p {
+    line-height: 18px;
+    height: 18px;
+    margin-top: 3px;
+    color: #b4a078;
+    font-size: 12px;
+}
+
 
 /* 版权信息 */
 
 .copyright {
     height: 268px;
     background: #414141;
+}
+
+.copyright .cp {
+    padding-top: 37px;
+    text-align: center;
+}
+
+.copyright .cp>ul {
+    margin-bottom: 30px!important;
+    padding-left: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright .cp>ul li {
+    flex: 1;
+    float: left;
+    color: #ffffff;
+    height: 51px;
+    text-align: center;
+}
+
+.copyright .cp>ul li h4 {
+    display: inline-block;
+    height: 51px;
+    font-size: 18px;
+    line-height: 51px;
+    vertical-align: middle;
+}
+
+.copyright .cp>ul li span {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.copyright .cp>ul li i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png') no-repeat;
+    background-position: 0 -134px;
+    margin-right: 17px;
+    vertical-align: middle;
+}
+
+.copyright .cp>ul li b {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png') no-repeat;
+    background-position: 0 -368px;
+    margin-right: 17px;
+    vertical-align: middle;
+}
+
+.copyright .cp>ul li em {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png') no-repeat;
+    background-position: 0 0;
+    margin-right: 17px;
+    vertical-align: middle;
+}
+
+.copyright .cp>ul li strong {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxfoot-sb38e8b0402-214e6650b9.png') no-repeat;
+    background-position: 0 -194px;
+    margin-right: 17px;
+    vertical-align: middle;
+}
+
+.copyright .cp>div {
+    padding-top: 28px;
+    border-top: 1px solid #4f4f4f;
+}
+
+.copyright .cp>div>div>a {
+    font-size: 12px;
+    color: #999999;
+}
+
+.copyright .cp>div>div>a:hover {
+    color: #ffffff;
+}
+
+.copyright .cp>div>div>b {
+    color: #999999;
+    margin: 0 13px;
+}
+
+.copyright .cp>div>p {
+    height: 18px;
+    margin: 11px 0;
+}
+
+.copyright .cp>div>p>a {
+    color: #999999;
+    margin-right: 15px;
+}
+
+.copyright .cp>div>p>img {
+    width: 23px;
+    height: 25px;
+    margin-top: -5px;
+    border: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+}
+
+.copyright .cp>div>p>a:hover {
+    color: #ffffff;
+}
+
+.copyright .cp>div>p>a.nohover:hover {
+    color: #999999;
 }
