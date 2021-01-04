@@ -304,3 +304,21 @@
     width: 100%;
     height: 100%;
 }
+
+#main .content2 .c2>div:nth-child(2) dl>div>dd>a {
+    color: #333333;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    width: 132px;
+    margin: 20px auto 0;
+}
+
+#main .content2 .c2>div:nth-child(2) dl>div>dd>p {
+    text-align: center;
+    color: #d4282d;
+    font-size: 13px;
+    margin-top: 10px;
+}
