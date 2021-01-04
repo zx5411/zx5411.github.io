@@ -1,0 +1,293 @@
+/* 版心：1190px */
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+/* 网页头部 */
+
+#header {
+    background: #ffffff;
+    border-bottom: #e4e4e4 solid 1px;
+}
+
+
+/*  顶部  */
+
+#header .top {
+    background: #333333;
+    height: 36px;
+}
+
+.topC div:nth-child(1) span {
+    color: #cc9756;
+    font-size: 14px;
+    line-height: 36px;
+    margin: 0 12px 0 2px;
+}
+
+.topC div:nth-child(1) a {
+    color: #cc9756;
+    line-height: 36px;
+    text-decoration: underline;
+}
+
+.topC>div:nth-child(1) {
+    float: left;
+}
+
+.topC>div:nth-child(1):hover {
+    cursor: pointer;
+}
+
+.topC>div:nth-child(1):hover a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.topC>div:nth-child(2) {
+    float: right;
+}
+
+.topC>div:nth-child(2) span {
+    border-right: 1px solid #5c5c5c;
+}
+
+.topC>div:nth-child(2) span.nobd {
+    border: none;
+}
+
+.topC>div:nth-child(2) span a {
+    color: #cccccc;
+    line-height: 36px;
+    margin: 0 10px;
+}
+
+.topC>div:nth-child(2) span:hover {
+    cursor: pointer;
+}
+
+.topC>div:nth-child(2) span a:hover {
+    color: #ffffff;
+}
+
+
+/* 头部 */
+
+.head {
+    height: 108px;
+}
+
+
+/* logo */
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    display: block;
+    width: 212px;
+    height: 51px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s2904006215-b2811ec0e9.png');
+    background-position: 0 -303px;
+    margin-top: 30px;
+    text-indent: -9999px;
+}
+
+
+/* 搜索框 */
+
+.search {
+    float: left;
+    width: 532px;
+    padding-top: 26px;
+    margin-left: 164px;
+}
+
+.search div:nth-child(1) {
+    position: relative;
+}
+
+.search div:nth-child(1) i {
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s2904006215-b2811ec0e9.png') no-repeat;
+    background-position: 0 -518px;
+    left: 15px;
+    top: 12px;
+}
+
+.search #txt {
+    width: 400px;
+    height: 36px;
+    border: #cc9756 solid 1px;
+    border-radius: 16px 0 0 16px;
+    border-right: 0;
+    padding-left: 38px;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: text;
+}
+
+.search div {
+    float: left;
+}
+
+.search #btn {
+    width: 89px;
+    height: 38px;
+    background: #cc9756;
+    color: #ffffff;
+    border: #cc9756 solid 1px;
+    border-radius: 0 16px 16px 0;
+    font-size: 14px;
+}
+
+.search p a {
+    line-height: 28px;
+    margin-left: 20px;
+    color: #999999;
+}
+
+
+/* 购物车 */
+
+.cart {
+    float: left;
+    margin-left: 48px;
+    width: 134px;
+    height: 20px;
+    border: 1px solid #cc9756;
+    border-radius: 19px;
+    padding: 8px 0;
+    cursor: pointer;
+    text-align: center;
+    color: #cc9756;
+    margin-top: 26px;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+}
+
+.cart i {
+    display: block;
+    width: 19px;
+    height: 22px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s2904006215-b2811ec0e9.png') no-repeat;
+    background-position: -1px -205px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+
+.cart span:nth-child(3) {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background: #d4262c;
+    right: 14px;
+    top: 8px;
+    border-radius: 50%;
+}
+
+
+/* 导航栏 */
+
+.nav ul {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li {
+    float: left;
+    flex: 1;
+}
+
+.nav ul li a {
+    color: #000000;
+    line-height: 30px;
+    display: inline-block;
+    height: 30px;
+    font-size: 12px;
+}
+
+.nav ul li:nth-child(1) a {
+    color: #cc9756;
+    border-bottom: 1px solid #cc9756;
+}
+
+.nav ul li a:hover {
+    color: #cc9756;
+    border-bottom: 1px solid #cc9756;
+}
+
+.libd {
+    position: relative;
+}
+
+.libd::after {
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    background: #999999;
+    content: '';
+    position: absolute;
+    right: 30px;
+    top: 8px;
+}
+
+
+/* 网页底部 */
+
+#bottom {
+    border-top: #e8e8e8 solid 1px;
+}
+
+
+/* 联系反馈 */
+
+.contact {
+    height: 298px;
+    background: #ffffff;
+    padding: 60px 0 36px;
+}
+
+.contactC>div {
+    width: 395px;
+    height: 298px;
+    float: left;
+    border-right: 1px solid #e9e9e9;
+}
+
+.contactC>div:nth-child(3) {
+    border-right: 0;
+}
+
+.contactC>div>h3 {
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+}
+
+.contactC .c_left {
+    width: 80px;
+    height: 100px;
+}
+
+
+/* 版权信息 */
+
+.copyright {
+    height: 268px;
+    background: #414141;
+}
