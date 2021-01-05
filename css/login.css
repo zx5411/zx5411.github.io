@@ -1,0 +1,63 @@
+/* 登录界面 */
+
+body {
+    background: #eaeaea;
+}
+
+#login {
+    width: 386px;
+    background: #fff;
+    height: auto!important;
+    border: 1px solid #F5F3EF;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 20px 20px 40px;
+    background: skyblue;
+}
+
+#login>div>h3 {
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    color: sienna;
+    margin-bottom: 10px;
+}
+
+#login>form>span {
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#login>form>input {
+    width: 270px;
+    height: 20px;
+    text-indent: 15px;
+}
+
+#login>form>input:nth-of-type(3) {
+    width: 333px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    background: #49838d;
+    color: #fff;
+}
+
+#login>span>a {
+    color: sienna;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    text-decoration: underline;
+}
