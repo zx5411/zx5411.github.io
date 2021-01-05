@@ -1,7 +1,7 @@
-/* 版心：1190px */
+/* 版心：1090px */
 
 .container {
-    width: 1190px;
+    width: 1090px;
     margin: 0 auto;
 }
 
@@ -185,8 +185,7 @@
 /* 购物车 */
 
 .cart {
-    float: left;
-    margin-left: 48px;
+    float: right;
     width: 134px;
     height: 20px;
     border: 1px solid #cc9756;
