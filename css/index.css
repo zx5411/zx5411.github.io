@@ -2,6 +2,15 @@
 
 #banner {
     height: 420px;
+    background: #eaeaea;
+    overflow: hidden;
+}
+
+#banner>div>a {
+    display: block;
+    width: 100%;
+    height: 420px;
+    background: url('https://yanxuan.nosdn.127.net/0fae504f6958db87ee919c38bac02c9b.png') no-repeat center;
 }
 
 
@@ -389,8 +398,7 @@
     float: left;
     width: 224px;
     height: 424px;
-    background: url('https://yanxuan.nosdn.127.net/1c81b925c38872d4070dff38ca1d1308.jpg?type=webp&imageView&quality=95&thumbnail=1090x270') no-repeat right center;
-    background-size: cover;
+    background: url('https://yanxuan.nosdn.127.net/a0d0bd891ebb55308dbddda736ed53cc.png') no-repeat center;
     text-align: center;
     padding-top: 60px;
     box-sizing: border-box;
@@ -981,4 +989,66 @@ em {
     color: #d4282d;
     font-size: 13px;
     text-align: center;
+}
+
+
+/* 内容6 */
+
+#main .content6 {
+    height: 428px;
+    box-sizing: border-box;
+    background: #ffffff;
+    margin-bottom: 80px;
+}
+
+#main .content6 .c6>div:nth-child(1) {
+    height: 48px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#main .content6 .c6>div:nth-child(1)>div:nth-child(1) {
+    float: left;
+    margin-right: 20px;
+}
+
+#main .content6 .c6>div:nth-child(1)>div:nth-child(1)>a>h3 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+    color: #333333;
+}
+
+#main .content6 .c6>div:nth-child(1)>span {
+    display: inline-block;
+    line-height: 1;
+    padding-top: 14px;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #333333;
+    font-size: 14px;
+}
+
+#main .content6 .c6>div:nth-child(2)>div:nth-child(1) {
+    float: left;
+    width: 690px;
+    height: 380px;
+}
+
+#main .content6 .c6>div:nth-child(2)>div img {
+    width: 100%;
+    height: 100%;
+}
+
+#main .content6 .c6>div:nth-child(2)>div:nth-child(2) {
+    float: left;
+    width: 390px;
+    height: 380px;
+    margin-left: 10px;
+}
+
+#main .content6 .c6>div:nth-child(2)>div:nth-child(2)>div {
+    width: 390px;
+    height: 185px;
+    margin-bottom: 10px;
 }
