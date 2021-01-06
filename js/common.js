@@ -1,15 +1,28 @@
-window.onload = function() {
-
+$(document).ready(function() {
     // 页面滚动顶部导航栏固定事件
     window.onscroll = scroll;
+    // 点击登录注册跳转页面
+    login();
+    // 跳转到购物车页面
+    cart();
 
 
 
+    // 方法
+    // 点击登录注册跳转页面
+    function login() {
+        $('.log').click(function() {
+            window.open('../pages/login.html', '_blank');
+        })
+    }
+    // 跳转到购物车页面
+    function cart() {
+        $('.cart').click(function() {
+            window.open('../pages/cart.html', '_blank');
+        });
+    }
 
-
-
-
-    // 页面滚动顶部导航栏固定
+    // 页面滚动顶部导航栏固定事件
     function scroll() {
         if ($(window).scrollTop() > $('#header').outerHeight(true)) {
             $('#fixhead').css({
@@ -20,5 +33,7 @@ window.onload = function() {
                 display: 'none'
             });
         }
-    }
-}
+    };
+
+
+})
