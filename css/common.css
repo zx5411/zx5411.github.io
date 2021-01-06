@@ -244,7 +244,7 @@
     font-size: 12px;
 }
 
-.nav ul li:nth-child(1) a {
+.nav ul li a.default {
     color: #cc9756;
     border-bottom: 1px solid #cc9756;
 }
@@ -267,6 +267,80 @@
     position: absolute;
     right: 30px;
     top: 8px;
+}
+
+
+/* 固定顶部导航栏 */
+
+#fixhead {
+    background: #ffffff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 99;
+}
+
+#fixhead ol li {
+    float: left;
+    text-align: center;
+}
+
+#fixhead ol li a {
+    color: #000000;
+    line-height: 50px;
+    display: inline-block;
+    height: 50px;
+    font-size: 14px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#fixhead ol li a.default {
+    color: #cc9756;
+    border-bottom: 1px solid #cc9756;
+}
+
+#fixhead ol li a:hover {
+    color: #cc9756;
+    border-bottom: 1px solid #cc9756;
+}
+
+#fixhead ol li a.nohov:hover {
+    border: 0;
+}
+
+#fixhead ol>li>a>i {
+    display: inline-block;
+    width: 126px;
+    height: 30px;
+    background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-s2904006215-b2811ec0e9.png') no-repeat center;
+    background-position: 0 -438px;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px auto 0;
+}
+
+#fixhead ol>li:nth-last-child(1)>a>i {
+    width: 19px;
+    height: 22px;
+    background-position: -1px -81px;
+    line-height: 22px;
+}
+
+#fixhead ol>li:nth-last-child(2)>a>i {
+    width: 19px;
+    height: 22px;
+    background-position: -1px -722px;
+    line-height: 22px;
+}
+
+#fixhead ol>li:nth-last-child(3)>a>i {
+    width: 18px;
+    height: 17px;
+    background-position: -1px -544px;
+    line-height: 17px;
 }
 
 
