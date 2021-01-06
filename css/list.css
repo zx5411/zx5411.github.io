@@ -1,0 +1,21 @@
+#main>.content1 {
+    background: #f4f0ea;
+}
+
+#main>.content1>.c1 {
+    height: 777px;
+    padding: 56px 0 50px;
+}
+
+#main>.content1>.c1>h2 {
+    font-size: 26px;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+}
+
+#main>.content1>.c1>div {
+    height: 745px;
+}
