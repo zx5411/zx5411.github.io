@@ -3,8 +3,9 @@ $(document).ready(function() {
     window.onscroll = scroll;
     // 点击登录注册跳转页面
     login();
-    // 跳转到购物车页面
+    // 点击购物车跳转到登录页面
     cart();
+
 
 
 
@@ -18,7 +19,7 @@ $(document).ready(function() {
     // 跳转到购物车页面
     function cart() {
         $('.cart').click(function() {
-            window.open('../pages/cart.html', '_blank');
+            window.open('../pages/login.html', '_blank');
         });
     }
 
