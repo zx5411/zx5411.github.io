@@ -77,6 +77,6 @@ $(function() {
         var arr = JSON.parse(localStorage.cart);
         arr.splice(index, 1);
         localStorage.cart = JSON.stringify(arr);
-        // showList();
+        showList();
     })
 })
