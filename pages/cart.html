@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/cart.css">
     <script src="../js/jquery1.12.4.min.js"></script>
     <script src="../js/common.js"></script>
+    <script src="../js/cart.js"></script>
 </head>
 
 <body>
@@ -56,7 +57,7 @@
                 <div class="cart">
                     <i></i>
                     <span>购物车</span>
-                    <span>0</span>
+                    <span class="number">0</span>
                 </div>
             </div>
             <!-- 导航栏 -->
@@ -97,14 +98,19 @@
     </div>
     <!-- 购物车 -->
     <div id="cart">
-        <div class="container">
+        <div class="container Cart">
+            <h2>没有更多商品了</h2>
             <table>
                 <thead>
-                    <th>商品信息</th>
-                    <th>单价</th>
-                    <th>数量</th>
-                    <th>小计</th>
-                    <th>操作</th>
+                    <tr>
+                        <th>商品id</th>
+                        <th>商品名称</th>
+                        <th>商品图片</th>
+                        <th>商品单价</th>
+                        <th>小计</th>
+                        <th>商品数量</th>
+                        <th>操作</th>
+                    </tr>
                 </thead>
                 <tbody>
 

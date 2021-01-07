@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/detail.css">
     <script src="../js/jquery1.12.4.min.js"></script>
     <script src="../js/common.js"></script>
+    <script src="../js/public.js"></script>
     <script src="../js/detail.js"></script>
 </head>
 
@@ -57,7 +58,7 @@
                 <div class="cart">
                     <i></i>
                     <span>购物车</span>
-                    <span>0</span>
+                    <span class="number">0</span>
                 </div>
             </div>
             <!-- 导航栏 -->
@@ -107,10 +108,19 @@
                 <span>双层水果蔬菜清洗沥水篮</span>
             </div>
             <div class="clearfix">
-                <div>
-                    <div>
-                        <img src="https://yanxuan-item.nosdn.127.net/711d2cf60c8d6e96635f74844059ef64.jpg" alt="" class="bigPic">
-
+                <div id="box">
+                    <div id="small">
+                        <!-- 小图片:430*430 -->
+                        <img src="https://yanxuan-item.nosdn.127.net/711d2cf60c8d6e96635f74844059ef64.jpg" alt="" class="bigPic" id="small">
+                        <!-- 遮罩层:215*215 -->
+                        <div id="mask"></div>
+                    </div>
+                    <div id="big">
+                        <!-- 大图片所在的盒子:430*430 -->
+                        <div id="bigbox">
+                            <img src="https://yanxuan-item.nosdn.127.net/711d2cf60c8d6e96635f74844059ef64.jpg" alt="" id="bigImg" />
+                            <!-- 大图片:860*860 -->
+                        </div>
                     </div>
                     <div>
                         <ul>
@@ -168,13 +178,13 @@
                         </div>
                         <div>
                             <span>数量</span>
-                            <div><span>-</span><input type="text" value="1"><span>+</span></div>
+                            <div><span class="cut">-</span><input type="text" value="1" class="num"><span class="add">+</span></div>
                         </div>
 
                     </div>
                     <div>
                         <a href="#">立即购买</a>
-                        <a href="#"><i></i>加入购物车</a>
+                        <a href="#" id="addCart" data-img="https://yanxuan-item.nosdn.127.net/8ef079c36480ef8c5dd6dd1f41839515.png" data-id="89446564" data-name="O派U派沥水篮2件套-浅绿色" data-price="18"><i></i>加入购物车</a>
                         <div>
                             <span>收藏</span>
                         </div>
@@ -280,5 +290,6 @@
         </div>
     </div>
 </body>
+
 
 </html>

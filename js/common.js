@@ -6,10 +6,6 @@ $(document).ready(function() {
     // 点击购物车跳转到登录页面
     cart();
 
-
-
-
-    // 方法
     // 点击登录注册跳转页面
     function login() {
         $('.log').click(function() {

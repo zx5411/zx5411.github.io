@@ -1,0 +1,79 @@
+table,
+h2 {
+    display: none;
+    width: 100%;
+    min-height: 30px;
+}
+
+h2 {
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+table>thead {
+    background: rgb(245, 245, 245);
+    font-size: 14px;
+}
+
+table>tbody {
+    border: 1px solid #333333;
+}
+
+table>thead>tr,
+table>tbody>tr {
+    width: 1090px;
+    display: flex;
+    justify-content: space-between;
+}
+
+table>thead>tr>th,
+table>tbody>tr td {
+    flex: 1;
+    text-align: center;
+}
+
+table>thead>tr>th {
+    line-height: 40px;
+}
+
+table>tbody>tr td {
+    line-height: 72px;
+}
+
+table input {
+    border: 0;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+table button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+table button:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.add,
+.cut {
+    margin: 0 5px;
+}
+
+.add,
+.cut:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
