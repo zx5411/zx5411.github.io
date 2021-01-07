@@ -13,6 +13,9 @@ $(document).ready(function() {
             });
         }
     };
-
+    // 切换到购物车页面
+    $('.cart').click(function() {
+        window.open('../pages/cart.html', 'blank');
+    })
 
 })
