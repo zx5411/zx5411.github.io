@@ -95,8 +95,8 @@ $(function() {
         // 把新商品添加进去
         productList.push(newProduct);
         // 存回本地存储
-        setCart(productList)
-            // 购物车商品数量加一
+        setCart(productList);
+        // 购物车商品数量加一
         var number = parseInt($('.number').html()) + 1;
         $('.number').html(number);
     })

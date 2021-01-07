@@ -1,8 +1,4 @@
 $(function() {
-
-
-
-
     // 点击登录
     $('.plog').click(function() {
         var tel = $('#tel').val();
