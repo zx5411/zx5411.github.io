@@ -32,14 +32,20 @@ $(function() {
             //获取当前元素的偏移量
             var left = dom.offsetLeft;
             var otop = dom.offsetTop;
+            // //获取当前元素外边框距离页面的左偏移量和上偏移量；
+            // while (dom.parentNode.nodeName != 'BODY') {
+            //     left += dom.parentNode.offsetLeft;
+            //     otop += dom.parentNode.offsetTop;
+            //     dom = dom.parentNode;
+            // }
             //mask的位置
+            console.log(left, otop)
             var x = e.clientX + getScroll().left - left - mask.offsetWidth / 2;
             var y = e.clientY + getScroll().top - otop - mask.offsetHeight / 2;
-
-            //边界值判断
+            console.log(y)
+                //边界值判断
             if (x <= 0) {
                 x = 0;
-
             }
             if (x >= box.offsetWidth - mask.offsetWidth) {
                 x = box.offsetWidth - mask.offsetWidth;
@@ -47,8 +53,8 @@ $(function() {
             if (y <= 0) {
                 y = 0;
             }
-            if (y >= 216) {
-                y = 216;
+            if (y >= 228) {
+                y = 228;
             }
             mask.style.left = x + 'px';
             mask.style.top = y + 'px';
